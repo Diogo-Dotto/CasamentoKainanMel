@@ -1,0 +1,29 @@
+@import url(./fonts.css);
+
+.cabecalho {
+    height: 100vh;
+    background-image: url(../img/foto-casal.jpeg);
+    background-size: cover;
+}
+
+.monograma {
+    max-width: 90%;
+    margin: 50px 20px;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 500px;
+}
+
+.nav-bar ul li{
+    font-size: 25px;
+    margin: 20px 0;
+    padding: 5px 0;
+    background-color: rgb(202, 202, 202);
+    color: rgb(102, 1, 1);
+    text-align: center;
+    font-family: 'Copper', sans-serif;
+}
