@@ -1,29 +1,153 @@
 @import url(./fonts.css);
 
+body {
+    background-color: rgb(247, 226, 193);;
+}
+
+.container {
+    max-width: 1080px;
+    margin: auto;
+}
+
 .cabecalho {
-    height: 100vh;
-    background-image: url(../img/foto-casal.jpeg);
-    background-size: cover;
+    height: 945px;
+    background-color: rgb(248, 238, 222);
 }
 
 .monograma {
-    max-width: 90%;
-    margin: 50px 20px;
+    max-width: 720px;
+    margin: 20px 200px;
+}
+
+.imagem-casal img{
+    height: 480px;
+    width: 340px;
+    margin: 0 370px;
+    border-radius: 20px;
+    border: 3px solid rgb(206, 184, 158);
+    box-shadow: 2px 2px 2px  rgb(250, 217, 177);;
 }
 
 .nav-bar {
+    margin: 0px 200px 80px 200px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 500px;
 }
 
-.nav-bar ul li{
-    font-size: 25px;
-    margin: 20px 0;
-    padding: 5px 0;
-    background-color: rgb(202, 202, 202);
-    color: rgb(102, 1, 1);
-    text-align: center;
-    font-family: 'Copper', sans-serif;
+.nav-bar ul {
+    display: flex;
+    flex-direction: column;
+    height: 160px;
+}
+
+.nav-bar ul li {
+    margin-top: 20px;
+    display: flex;
+    font-size: 28px;
+    font-family: 'Engravers', sans-serif;
+}
+
+.nav-bar ul li a {
+    padding: 6px 40px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+    border: 2px solid rgb(206, 184, 158);
+    border-radius: 10px;
+}
+
+.nav-bar ul li a:hover {
+    background-color: rgb(250, 217, 177);
+    box-shadow: 0px 3px 3px bisque;
+}
+
+.informacoes {
+    height: 945px;
+    background-color: rgb(255, 246, 235);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.informacoes div {
+    margin: 70px;
+}
+
+.informacoes div img{
+    height: 250px;
+}
+
+.informacoes .convite {
+    font-family: 'Cooper', sans-serif;
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.informacoes p {
+    font-family: "Engravers", sans-serif;
+    margin: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.contato {
+    height: 945px;
+    background-color: rgb(248, 238, 222);
+    display: flex;
+}
+
+.img-contato{
+    margin: auto 20px;
+}
+
+.img-contato img {
+    width: 500px;
+    height: 800px;
+    border: 5px solid rgb(206, 184, 158);
+    box-shadow: 10px 10px 10px rgb(206, 184, 158, 0.67);
+}
+
+.informacoes-contato {
+    margin: 200px auto;
+}
+
+.confirma-convite {
+    font-family: "Cooper", sans-serif;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.informacoes-contato p {
+    font-family: "Engravers";
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.informacoes-contato ul {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.informacoes-contato ul li {
+    margin: auto;
+    display: flex;
+    font-size: 20px;
+    font-family: 'Engravers', sans-serif;
+    font-weight: bold;
+}
+
+.informacoes-contato ul li a {
+    padding: 6px 18px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+    border: 2px solid rgb(206, 184, 158);
+    border-radius: 10px;
 }
