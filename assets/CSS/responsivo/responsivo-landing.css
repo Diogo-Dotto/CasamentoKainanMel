@@ -1,0 +1,12 @@
+@media (max-width: 1024px) {
+    .monograma{
+        width: 680px;
+        margin: 30px 0 30px 190px;
+    }
+
+    .imagem-casal img{
+        height: 400px;
+        width: 300px;
+        margin: 0 355px;
+    }
+}
