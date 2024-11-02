@@ -1,37 +1,41 @@
 @import url(./fonts.css);
 
+body {
+    background-color: #580e1b;
+}
+
+.container {
+    max-width: 1080px;
+    margin: auto;
+}
+
 .fundo {
-    background-image: url(../img/fundo-cabecalho.jpeg);
+    background-image: url(../img/background/fundo-cabecalho.jpeg);
     background-size: cover;
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 40px;t;
 }
 
 .banner {
-    height: 200px;
-    margin: auto;
+    height: 180px;
 }
 
-h1 {
-    margin: 80px;
-    text-align: center;
-    font-size: 40px;
-    font-family: 'Engravers', sans-serif;
-    font-weight: bolder;
+.couple-image img{
+    width: 1080px;
 }
 
 a {
     display: block;
     margin: 0 auto;
-    width: fit-content;
 }
 
 .p-pagina {
-    height: 80px;
-    color: brown;
-    border: solid #5e2129 4px;  
+    height: 62px;
+    color: #580e1b;
+    border: solid #580e1b 1px;  
     border-radius: 15px; 
 }

@@ -1,170 +1,164 @@
-@import url(./fonts.css);
+@import url('https://fonts.cdnfonts.com/css/kapakana');
+@import url('https://fonts.cdnfonts.com/css/martian-mono');
 
 body {
-    background-color: rgb(247, 226, 193);;
+    background-color: #580e1b;
 }
 
 .container {
     max-width: 1080px;
     margin: auto;
+    background-image: url(../img/background/background-page.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
 }
 
-.cabecalho {
-    height: 945px;
-    background-color: rgb(248, 238, 222);
-}
-
-.imgs {
-    padding: 20px;
-    margin-left: 180px;
-    max-width: 720px;
-    margin: 0 auto;
-}
-
-.monograma {
-    max-width: 720px;
-}
-
-.imagem-casal {
-    max-width: 340px;
-    margin: 0 auto;
-}
-
-.imagem-casal img{
-    height: 480px;
-    border-radius: 20px;
-    border: 3px solid rgb(206, 184, 158);
-    box-shadow: 2px 2px 2px  rgb(250, 217, 177);
-}
-
-.nav-bar {
-    margin: 0px 200px 80px 200px;
+.flower {
+    max-width: 800px;
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.top-f {
+    padding: 80px 0 30px;
+}
+
+.bottom-f {
+    padding: 30px 0 80px;
+}
+
+.entry {
+    font-family: "kapakana", sans-serif;
+    font-size: 80px;
+    text-align: center;
+    font-weight: 550;
+
 }
 
 .nav-bar ul {
     display: flex;
-    flex-direction: column;
-    height: 160px;
-}
-
-.nav-bar ul li {
-    margin-top: 20px;
-    display: flex;
-    font-size: 28px;
-    font-family: 'Engravers', sans-serif;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5%;
+    width: 100%;
 }
 
 .nav-bar ul li a {
-    padding: 6px 40px;
-    flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: bisque;
-    border: 2px solid rgb(206, 184, 158);
-    border-radius: 10px;
-}
-
-.nav-bar ul li a:hover {
-    background-color: rgb(250, 217, 177);
-    box-shadow: 0px 3px 3px bisque;
-}
-
-.informacoes {
-    height: 945px;
-    background-color: rgb(255, 246, 235);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.informacoes div {
-    margin: 70px auto;
-    max-width: 600px;
-}
-
-.informacoes div img{
-    height: 250px;
-}
-
-.informacoes .convite {
-    font-family: 'Cooper', sans-serif;
-    font-size: 38px;
-    margin-bottom: 20px;
-}
-
-.informacoes p {
-    font-family: "Engravers", sans-serif;
-    margin: 10px;
-    font-size: 24px;
-    font-weight: bold;
+    font-family: 'Martian Mono', sans-serif;
+    color: #580e1b;
+    font-size: 18px;
+    padding: 10px 0;
+    border: #580e1b 1px solid;
+    border-radius: 7px;
+    width: 200px;
+    height: 70px;
     text-align: center;
 }
 
-.contato {
-    height: 945px;
-    background-color: rgb(248, 238, 222);
-    display: flex;
+.nav-bar ul li a:hover {
+    background-color: #580e1b;
+    color: #fff;
+    transition: all .3s ease-in;
+    border-radius: 7px;
 }
 
-.img-contato{
-    margin: auto 20px;
-    max-width: 500px;
+.cerimony {
+    height: 100vh;
 }
 
-.img-contato img {
-    width: 500px;
-    height: 800px;
-    border: 5px solid rgb(206, 184, 158);
-    box-shadow: 10px 10px 10px rgb(206, 184, 158, 0.67);
+.titles {
+    font-family: "kapakana", sans-serif;
+    font-size: 80px;
+    text-align: center;
+    font-weight: 500;
+    padding: 20px 0 10px;
 }
 
-.informacoes-contato {
-    margin: 200px auto;
-}
-
-.confirma-convite {
-    font-family: "Cooper", sans-serif;
-    font-size: 34px;
-    margin-bottom: 20px;
-}
-
-.informacoes-contato p {
-    font-family: "Engravers";
-    font-weight: bold;
-    font-size: 24px;
-}
-
-.informacoes-contato ul {
-    display: flex;
-    flex-direction: column;
-    height: 150px;
-    margin-top: 20px;
-}
-
-.informacoes-contato ul li {
-    margin: auto;
-    display: flex;
+.cerimony p {
     font-size: 20px;
-    font-family: 'Engravers', sans-serif;
-    font-weight: bold;
+    text-align: center;
+    font-family: 'Martian Mono', sans-serif;
 }
 
-.informacoes-contato ul li a {
-    padding: 6px 18px;
-    flex: 1;
+.separation-bar {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: bisque;
-    border: 2px solid rgb(206, 184, 158);
-    border-radius: 10px;
+    gap: 6%;
+    margin-top: 30px;
 }
 
-.informacoes-contato ul li a:hover {
-    background-color: rgb(250, 217, 177);
-    box-shadow: 0px 3px 3px bisque;
+.separation-bar img {
+    height: 30px;
+}
+
+.separation-bar hr {
+    width: 35%;
+    height: 2px;
+    background-color: #580e1b;
+    border: none;
+}
+
+.cerimony ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4%;
+    margin-top: 80px;
+}
+
+.cerimony ul li a {
+    font-size: 20px;
+    border: 1px solid #580e1b;
+    border-radius: 7px;
+    color: #580e1b;
+    padding: 10px 20px;
+    text-align: center;
+    font-family: 'Martian Mono', sans-serif;
+}
+
+.cerimony ul li a:hover {
+    background-color: #580e1b;
+    color: #fff;
+    transition: all .3s ease-in;
+}
+
+.bottom-flower {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.b-top-flower {
+    padding: 80px 0 5px;
+}
+
+.b-bottom-flower {
+    padding: 30px 0 80px;
+    margin-top: 20px;
+}
+
+.location h2 {
+    font-family: "kapakana", sans-serif;
+    font-weight: lighter;
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.location p {
+    font-family: "Martian Mono", sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
 }
