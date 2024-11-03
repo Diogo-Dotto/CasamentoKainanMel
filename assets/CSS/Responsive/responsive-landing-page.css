@@ -75,3 +75,19 @@
         margin: 25px 0;
     }
 }
+
+@media (max-width: 382px) {
+    .entry {
+        font-size: 45px;
+    }
+
+    .titles {
+        font-size: 45px;
+    }
+
+    .cerimony p {
+        font-size: 12px;
+    }
+
+    
+}
