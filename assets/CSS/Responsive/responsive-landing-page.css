@@ -1,0 +1,77 @@
+@media (max-width: 768px) {
+    .entry {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .nav-bar ul li {
+        max-width: 80%;
+        margin: auto;
+    }
+
+    .cerimony ul li {
+        max-width: 70%;
+        margin: auto;
+    }
+
+    .cerimony ul li a {
+        max-width: 90%;
+        margin: 0 auto;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 618px) {
+    .nav-bar ul {
+        flex-wrap: wrap;
+    }
+
+    .nav-bar ul li {
+        margin: 5px;
+        font-size: 16px;
+    }
+
+    .titles {
+        font-size: 70px;
+    }
+
+    .cerimony p {
+        font-size: 18px;
+    }
+
+    .location h2 {
+        font-size: 70px ;
+    }
+
+    .location p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 545px) {
+    .cerimony ul li a {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 430px) {
+    .entry {
+        font-size: 60px;
+    }
+
+    .titles {
+        font-size: 50px;
+    }
+
+    .cerimony p {
+        font-size: 14px;
+    }
+
+    .cerimony ul {
+        flex-wrap: wrap;
+    }
+
+    .cerimony ul li {
+        margin: 25px 0;
+    }
+}

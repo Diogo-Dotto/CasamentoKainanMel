@@ -1,0 +1,16 @@
+@media (max-width: 1024px) {
+    .couple-image img {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 430px) {
+    .banner {
+        height: 120px;
+        margin-top: 70px;
+    }
+
+    .couple-image img {
+        margin: 30px 0;
+    }
+}

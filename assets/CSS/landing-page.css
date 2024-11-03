@@ -10,12 +10,12 @@ body {
     margin: auto;
     background-image: url(../img/background/background-page.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 1080px;
     height: 100vh;
 }
 
 .flower {
-    max-width: 800px;
+    max-width: 80%;
     margin: auto;
     display: flex;
     align-items: center;
@@ -23,11 +23,13 @@ body {
 }
 
 .top-f {
+    max-width: 80%;
     padding: 80px 0 30px;
 }
 
 .bottom-f {
-    padding: 30px 0 80px;
+    max-width: 80%;
+    padding-top: 30px;
 }
 
 .entry {
@@ -35,7 +37,6 @@ body {
     font-size: 80px;
     text-align: center;
     font-weight: 550;
-
 }
 
 .nav-bar ul {
@@ -43,8 +44,11 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    gap: 5%;
-    width: 100%;
+    padding: 30px 0;
+}
+
+.nav-bar ul li {
+    margin: 0 20px;
 }
 
 .nav-bar ul li a {
@@ -110,8 +114,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 4%;
     margin-top: 80px;
+}
+
+.cerimony ul li {
+    margin: 0 20px;
 }
 
 .cerimony ul li a {
@@ -131,7 +138,7 @@ body {
 }
 
 .bottom-flower {
-    max-width: 800px;
+    max-width: 80%;
     margin: auto;
     display: flex;
     align-items: center;
@@ -139,12 +146,13 @@ body {
 }
 
 .b-top-flower {
-    padding: 80px 0 5px;
+    max-width: 80%;
+    padding: 80px 0 30px;
 }
 
 .b-bottom-flower {
-    padding: 30px 0 80px;
-    margin-top: 20px;
+    max-width: 80%;
+    padding-top: 30px;
 }
 
 .location h2 {
