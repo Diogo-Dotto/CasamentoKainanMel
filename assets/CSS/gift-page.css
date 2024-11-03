@@ -1,0 +1,100 @@
+@import url('https://fonts.cdnfonts.com/css/kapakana');
+@import url('https://fonts.cdnfonts.com/css/martian-mono');
+
+body {
+    background-color: #580e1b;
+}
+
+.container {
+    max-width: 1080px;
+    margin: auto;
+    background-image: url(..//img/background/background-page.png);
+    background-size: 100%;
+    height: 100%;
+}
+
+.entry h1 {
+    font-family: "kapakana", sans-serif;
+    font-size: 80px;
+    text-align: center;
+    font-weight: 500;
+    padding: 40px 0 10px;
+}
+
+.entry p {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Martian Mono', sans-serif;
+}
+
+.separation-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6%;
+    margin-top: 30px;
+}
+
+.separation-bar img {
+    height: 30px;
+}
+
+.separation-bar hr {
+    width: 35%;
+    height: 2px;
+    background-color: #580e1b;
+    border: none;
+}
+
+.card-containers {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    height: 500px;
+    text-align: center;
+}
+
+.image img {
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    border-radius: 12px;
+}
+
+.card p {
+    font-size: 16px;
+    text-align: center;
+    margin: 16px 10px;
+    height: 80px;
+    font-family: 'Martian Mono', sans-serif;
+    padding: 10px 0;
+}
+
+.card button {
+    margin: auto;
+    width: 80%;
+    height: 40px;
+    margin-bottom: 20px;
+    font-family: "Martian Mono", sans-serif;
+    background-color: #ccc;
+    border: #580e1b 1px solid;
+    border-radius: 4px;
+}
+
+.card button:hover {
+    color: #fff;
+    background-color: #580e1b;
+    transition: all .3s ease-in;
+}
