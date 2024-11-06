@@ -23,7 +23,7 @@ body {
 .banner {
     height: 180px;
     width: 80%;
-    margin: 40px auto 60px;
+    margin: 40px auto;
 }
 
 .couple-image img{
@@ -40,7 +40,7 @@ a {
 }
 
 .p-pagina {
-    height: 62px;
+    height: 70px;
     color: #580e1b;
     border: solid #580e1b 1px;  
     border-radius: 15px; 
