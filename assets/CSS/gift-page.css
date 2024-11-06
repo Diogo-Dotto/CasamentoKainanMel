@@ -22,9 +22,11 @@ body {
 }
 
 .entry p {
+    margin: 0 auto;
     font-size: 20px;
     text-align: center;
     font-family: 'Martian Mono', sans-serif;
+    max-width: 80%;
 }
 
 .separation-bar {
@@ -82,7 +84,10 @@ body {
     padding: 10px 0;
 }
 
-.card button {
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: auto;
     width: 80%;
     height: 40px;
@@ -93,7 +98,7 @@ body {
     border-radius: 4px;
 }
 
-.card button:hover {
+.button:hover {
     color: #fff;
     background-color: #580e1b;
     transition: all .3s ease-in;
