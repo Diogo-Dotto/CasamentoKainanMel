@@ -1,6 +1,10 @@
 @media (max-width: 768px) {
+    .top-f, .bottom-f {
+        max-width: 70%;
+    }
 
     .entry {
+        font-size: 70px;
         max-width: 85%;
         margin: 0 auto;
     }
@@ -109,7 +113,7 @@
 
 @media (max-width: 382px) {
     .entry {
-        font-size: 45px;
+        font-size: 35px;
     }
 
     .titles {
@@ -121,4 +125,10 @@
     }
 
     
+}
+
+@media (max-width: 375px) and (max-height: 667px) {
+    .nav-bar ul li a {
+        height: 50px;
+    }
 }
