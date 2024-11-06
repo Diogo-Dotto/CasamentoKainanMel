@@ -10,7 +10,7 @@ body {
 }
 
 .fundo {
-    background-image: url(../img/background/fundo-cabecalho.jpeg);
+    background-image: url(../img/background/background-page.png);
     background-size: cover;
     height: 100vh;
     gap: 40px;
@@ -23,17 +23,20 @@ body {
 .banner {
     height: 180px;
     width: 80%;
-    margin: 40px auto;
+    margin: 40px auto 60px;
 }
 
 .couple-image img{
     width: 1080px;
+    height: 500px;
 }
 
 a {
     display: flex;
     justify-content: center;
-    margin: 20px auto;
+    margin: 20px auto; 
+    width: 60px;
+    border-radius: 15px;
 }
 
 .p-pagina {
