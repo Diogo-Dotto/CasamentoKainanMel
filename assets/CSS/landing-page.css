@@ -155,6 +155,10 @@ body {
     padding-top: 30px;
 }
 
+.location {
+    padding-top: 90px;
+}
+
 .location h2 {
     font-family: "kapakana", sans-serif;
     font-weight: lighter;
